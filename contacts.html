@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/contacts.css">
+    <title>Contact us</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="wrapper">
+        <header id="showcase" class="grid">
+            <div class="bg-wrap"></div>
+            <div class="bg-image"></div>
+            <div class="content-wrap">
+                <h1><a href="index.html">Contact us</a></h1>
+                <p>The interactive learning destination for aspiring and experienced developers!</p>
+            </div>
+        </header>
+        <main class="main">
+            <section id="contact">
+                <h2>Write something to us</h2>
+                <section id="contact">
+                    <form id="feedback" action="https://formspree.io/andrew_i.k@ukr.net" method="POST">
+                        <label><span>Your Name</span><input type="text" id="name"></label>
+                        <label><span>Email Address</span><input type="text" id="email"></label>
+                        <textarea name="textarea" id="message" placeholder="Your message..."></textarea>
+                        <input type="submit" value="Send a message">
+                    </form>
+                </section>
+            </section>
+            <aside id="social">
+                    <ul>
+                        <li><a href="#" title="Facebook"><img src="img/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#" title="Google+"><img src="img/google+.ico" alt="Google+"></a></li>
+                        <li><a href="#" title="Telegram"><img src="img/telegram.png" alt="Telegram"></a></li>
+                        <li><a href="#" title="GitHub"><img src="img/social-github.svg" alt="GitHub"></a></li>
+                    </ul>
+                </aside>
+        </main>
+        <footer id="main-footer" class="grid">
+            <div>© 2017, <a href="index.html">IT Loft Studio</a>. All rights reserved.</div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particles.json loaded...');
+        });
+    </script>
+</body>
+</html>
